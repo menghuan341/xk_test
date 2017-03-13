@@ -1,0 +1,9 @@
+- name: Send EMail
+  hosts: all
+  tasks:
+    - notifications:
+        email:
+          recipients:
+            - cuiweichen@139.com
+          on_success: change
+          on_failure: always
