@@ -1,4 +1,4 @@
 - name: Send EMail
   hosts: all
   tasks:
-    - email: recipients=cuiweichen@139.com subject=test
+    - mail: recipients=cuiweichen@139.com subject=test
