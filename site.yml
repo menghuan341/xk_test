@@ -1,0 +1,8 @@
+debug: msg="test"
+
+notifications:
+  email:
+    recipients:
+      - cuiwch@neusoft.com
+    on_success: change
+    on_failure: always
