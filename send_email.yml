@@ -2,12 +2,10 @@
   hosts: localhost
   tasks:
     - mail: 
-        from: test@test.com
-        charset: utf-8
+        from: test@xikang365.com
         to: cuiweichen@139.com
         cc: cuiwch@neusoft.com
         subject: It's a test
         body: 'hello,Mr.J'
-        attach: '/tmp/hello_world.yml'
-    
+   
     
